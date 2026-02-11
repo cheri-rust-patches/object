@@ -5846,6 +5846,9 @@ pub const EF_RISCV_FLOAT_ABI_QUAD: u32 = 0x0006;
 pub const EF_RISCV_RVE: u32 = 0x0008;
 pub const EF_RISCV_TSO: u32 = 0x0010;
 pub const EF_RISCV_RV64ILP32: u32 = 0x0020;
+pub const EF_RISCV_CHERIABI: u32 = 0x00010000;
+pub const EF_RISCV_CAPMODE: u32 = 0x00020000;
+pub const EF_RISCV_CHERIOT: u32 = 0x00040000;
 
 // RISC-V values for `Sym64::st_other`.
 /// Function uses variant calling convention.
